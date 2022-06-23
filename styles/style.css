@@ -249,6 +249,7 @@ h4 {
   border-radius: 20px;
   -webkit-transition: 1s;
   transition: 1s;
+  cursor: pointer;
 }
 .item-p__h3 {
   margin: auto auto auto 5%;
@@ -313,7 +314,7 @@ h4 {
   /* Кружочки */
 }
 .students .full {
-  display: block;
+  display: none;
 }
 .students .slider_wrapper {
   width: 100%;
@@ -425,11 +426,15 @@ h4 {
   display: inline-block;
   background-color: #FFFFFF;
   color: #FF6550;
-  line-height: 1.8em;
+  line-height: 1.3em;
   text-align: center;
 }
 .students .continue {
-  display: none;
+  display: inline;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  color: #0ABDF1;
 }
 
 .photo {
@@ -959,19 +964,30 @@ h4 {
     margin: 15px;
   }
   .students__description {
-    font-size: 16px;
+    font-size: 18px;
     margin: 15px;
   }
   .students__description i {
     text-align: center;
     padding: 2px 5px;
     margin: 10px 0;
+    max-width: 600px;
   }
   .students .photo_1 {
     float: right;
   }
   .students .photo_2 {
     float: left;
+  }
+  .students .continue {
+    padding: 5px 8px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+  }
+  .students .first_view {
+    height: 375px;
   }
 
   .contact__item-p {
@@ -1413,12 +1429,23 @@ h4 {
   .students__description i {
     padding: 2px 5px;
     margin: 10px 0;
+    max-width: 550px;
   }
   .students .photo_1 {
     float: right;
   }
   .students .photo_2 {
     float: left;
+  }
+  .students .continue {
+    padding: 5px 8px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+  }
+  .students .first_view {
+    height: 400px;
   }
 
   .contact__item-p {
@@ -1859,14 +1886,23 @@ h4 {
     margin: 10px;
   }
   .students__description i {
-    padding: 1px 2.5px;
+    padding: 2px 5px;
     margin: 5px 0;
+    max-width: 400px;
   }
   .students .photo_1 {
     float: right;
   }
   .students .photo_2 {
     float: left;
+  }
+  .students .continue {
+    padding: 2px 5px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  .students .first_view {
+    height: 300px;
   }
 
   .contact__item-p {
@@ -2374,7 +2410,7 @@ h4 {
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 16px;
+    padding: 12px;
     color: white;
     font-weight: bold;
     font-size: 32px;
@@ -2417,21 +2453,18 @@ h4 {
     margin: 10px;
   }
   .students__description i {
-    padding: 2px 6px;
+    padding: 6px 6px;
     margin: 5px 0;
     line-height: 1.3em;
   }
   .students .continue {
     display: block;
-    padding: 8px;
+    padding: 10px 10px;
     font-size: 14px;
-    margin: 10px auto;
-    line-height: 1.3em;
-    text-align: center;
-    background-color: white;
-    cursor: pointer;
-    color: #0ABDF1;
-    border-radius: 12px;
+    border-radius: 6px;
+  }
+  .students .first_view {
+    height: 770px;
   }
 
   .contact__body {
